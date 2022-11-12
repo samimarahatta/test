@@ -1,5 +1,11 @@
 *{
-    margin: 0 auto;
+    margin: 0;
+}
+.section-padding{
+    padding: 60px 0;
+}
+.curve-wrap{
+    padding-bottom: 94px;
 }
 .test{
     width: 100%;
@@ -25,6 +31,17 @@
     }
 }
 
+.img {
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 30px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
 // bootstrap css remove if you have bootstrap
 .container{
     max-width: 1200px;
